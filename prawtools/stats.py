@@ -106,7 +106,7 @@ class SubredditStats(object):
                        Reddit(site, check_for_updates=False, user_agent=AGENT))
         self.submissions = {}
         self.submitters = defaultdict(list)
-        self.submit_subreddit = self.reddit.subreddit('subreddit_stats')
+        self.submit_subreddit = self.reddit.subreddit('SiouxsieSioux')
         self.subreddit = self.reddit.subreddit(subreddit)
 
     def basic_stats(self):
